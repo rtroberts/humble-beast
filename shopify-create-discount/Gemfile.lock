@@ -19,12 +19,19 @@ GEM
       ffi (~> 1.0, >= 1.0.11)
     domain_name (0.5.25)
       unf (>= 0.0.5, < 1.0.0)
-    ffi (1.9.10)
+    ffi (1.11.1)
+    gmail (0.7.1)
+      gmail_xoauth (>= 0.3.0)
+      mail (>= 2.2.1)
+    gmail_xoauth (0.4.2)
+      oauth (>= 0.3.6)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     i18n (0.7.0)
     json (1.8.3)
-    logger (1.2.8)
+    logger (1.3.0)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
     mechanize (2.7.3)
       domain_name (~> 0.5, >= 0.5.1)
       http-cookie (~> 1.0)
@@ -35,6 +42,7 @@ GEM
       ntlm-http (~> 0.1, >= 0.1.1)
       webrobots (>= 0.0.9, < 0.2)
     mime-types (2.99)
+    mini_mime (1.0.2)
     mini_portile2 (2.0.0)
     minitest (5.8.3)
     multi_json (1.11.2)
@@ -43,6 +51,7 @@ GEM
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
     ntlm-http (0.1.1)
+    oauth (0.5.4)
     rack (1.6.4)
     rails-observers (0.1.2)
       activemodel (~> 4.0)
@@ -70,6 +79,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gmail
   logger
   mechanize
   shopify_api
