@@ -1,0 +1,33 @@
+<br />
+<div ng-controller="mediaListCtrl">
+  <span ng-hide="actionsComplete()"><strong class="upcase">
+    {{requiredActions - (medias | filter:{isFollowing:true}).length | noNeg}} more action(s) needed to unlock your download
+  </strong></span>
+  <button id="hbDownloadButton" ng-show="actionsComplete()" ng-click="postDownloader(user)" ng-disabled="postInProgress" type="submit">
+    <span>DOWNLOAD</span></button>
+  <br />
+  <br />
+  <uib-accordion close-others="oneAtATime">
+   <uib-accordion-group heading="Join our eNewsletter" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+   <div id="hbNewsletterForm"> 
+   <p>We'll send your download link to this address. <br> If you're not in the U.S., please enter '00000' as your zip code.</p>
+   <form name="newsletterForm" class="css-form">
+    <label class="caps">Name: </label><input type="text" ng-model="user.name" name="name" required /><br />
+    <label class="caps">Email: </label><input type="email" ng-model="user.email" name="email" required /><br />
+    <label class="caps">Zip: </label><input type="text" ng-model="user.zip_code" value="97211"  required ng-pattern="/^(\d{5}(-\d{4})?|[A-Z]\d[A-Z] *\d[A-Z]\d)$/" /><br>
+   <button type="submit" ng-click="save(user)" ng-disabled="newsletterForm.$invalid">SUBMIT</button>
+    </form>
+  </div>
+    </uib-accordion-group>
+  <uib-accordion-group ng-repeat="media in medias" is-disabled="status.disableOtherFields">
+  <uib-accordion-heading>
+  {{media.heading}} 
+  <i class="pull-right glyphicon" ng-class="{'glyphicon-ok': media.isFollowing, 'glyphicon-plus': !media.isFollowing, 'glyphicon-refresh': media.isLoading, 'fa fa-spinner fa-spin': media.isLoading}"></i>
+</uib-accordion-heading>
+<span>{{media.content}}</span>
+<div ng-click="checkFollowStatus(media); media.button()">
+  <div ng-bind-html="renderHtml(media.buttonHTML)"></div>
+</div>
+</uib-accordion-group>
+</uib-accordion>
+</div>

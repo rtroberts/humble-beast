@@ -1,0 +1,189 @@
+NOTES:
+
+Helvetica Neue
+11px or 12px
+uppercase
+2px letter spacing or no letter spacing
+line height 1.7em
+
+
+h1
+32 px
+1.2em line height
+
+h2 
+22px
+1.2 em
+2px letter spacing
+
+h3
+16px
+1.2em line height
+2px letter spacing
+
+summary block
+proxima nova
+uppercase transform
+1px letter spacing
+
+footer block
+proxima nova
+14px
+uppercase
+2px letter spacing
+
+
+announcement bar
+proxima nova
+10px 
+1px letter spacing
+
+
+
+======= INLINE CUSTOM CSS ========
+.parallax-item[data-url-id='home'] {
+  .content-inner {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+#collection-5414c0a9e4b0081a377794a6 .content-inner {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+.collection-type-index .page-content
+{
+  max-width: 1020px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+}
+
+.sqs-block
+{
+  position: relative;
+  clear: both;
+  height: auto;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: transparent;
+  transition-property: outline;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#powered
+{
+visibility: hidden;
+}
+
+.sqs-audio-playlist.tablet .album-info {
+	padding-bottom: 2%
+}
+
+.button-wrapper {
+  display: block;
+  text-align: left;
+  margin-top:0px;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  padding:10px;
+  
+  margin-bottom:5px;
+}
+
+.cta-button {
+  background-color: #000000;
+  color: #fff !important;
+  text-align:center;
+  width: 200px;
+
+}
+
+.cta-button:hover {
+  background-color: #333333;
+}
+
+.cta-download {
+  background-color: transparent;
+  color: #990000 !important;
+    text-align:center;
+	border:2px solid #990000;
+    width: 196px;
+
+
+}
+
+.cta-download:hover {
+  background-color: #990000;
+  color: #ffffff !important;
+
+}
+
+.tweetLink {
+    cursor: pointer;
+  	padding-top:50px;
+  
+    .tweetLine {
+      border:none;
+      color: inherit;
+      font-size:30px;
+      line-height:36px;
+      font: helvetica;
+      font-weight:normal;
+      text-align:center;
+      font-style: italic; 
+      color:#990000;
+      margin:20px;
+      padding: 50px 0px 50px 0px;
+      
+      
+    }
+    .tweetLine, .tweetSquare {
+      -moz-transition: color 0.6s;
+      -o-transition: color 0.6s;
+      -webkit-transition: color 0.6s;
+      transition: color 0.6s;
+    }
+    .tweetSquare {
+      font-size: 160%;
+      vertical-align: center;
+      margin-top: 15px;
+      color: #990000;
+      outline: 0;
+    }
+    &:hover {
+      .tweetLine, .tweetSquare {
+        color: #999999 !important;
+      }
+    }
+  }
+#collection-559307bae4b08369d021241a .page-title {
+  display: none;
+}
+.queue-events .queue-event .btn-details.btn-primary
+{
+  background-color: #990000;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+  color: #ffffff;
+}

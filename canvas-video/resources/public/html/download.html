@@ -1,0 +1,30 @@
+<br />
+<div ng-controller="mediaListCtrl">
+  <div class="album-art" ng-hide="actionsComplete"><img src="/img/canvas-banner.jpg"></div>
+  <div class="album-art" ng-show="actionsComplete">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/UYKHEnCKIto" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <span ng-hide="actionsComplete"><strong class="upcase">
+    Unlock the Canvas Conference Live Stream
+  </strong></span>
+  <br />
+  <br />
+  <div ng-show="actionsComplete">
+  <strong>Streaming provided by <a href="http://uywi.org">Urban Youth Workers Institute</a> and <a href="http://jamthehype.com">Jam the Hype</a>.</strong>
+</div>
+  <uib-accordion close-others="oneAtATime" ng-hide="actionsComplete">
+   <uib-accordion-group heading="Join our eNewsletter" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
+   <div id="hbNewsletterForm"> 
+   <p>If you're not in the U.S., please enter '00000' as your zip code.</p>
+   <form name="newsletterForm" class="css-form">
+    <label class="caps">Name: </label><input type="text" ng-model="user.name" name="name" required /><br />
+    <label class="caps">Email: </label><input type="email" ng-model="user.email" name="email" required /><br />
+    <label class="caps">Zip: </label><input type="text" ng-model="user.zip_code" value="97211"  required ng-pattern="/^(\d{5}(-\d{4})?|[A-Z]\d[A-Z] *\d[A-Z]\d)$/" />
+    <a href="#" data-toggle="tooltip" title="Click me"><i class="icon-edit icon-white"></i></a>
+    <br>
+   <button type="submit" ng-click="postDownloader(user)" ng-disabled="newsletterForm.$invalid" ng-disabled="postInProgress">SUBMIT</button>
+    </form>
+  </div>
+    </uib-accordion-group>
+</uib-accordion>
+</div>

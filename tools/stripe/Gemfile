@@ -1,0 +1,6 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+gem "stripe"
+gem "shopify_api"
+gem 'activeresource', github: 'rails/activeresource'

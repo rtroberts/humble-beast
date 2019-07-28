@@ -1,0 +1,45 @@
+{
+ :artists {
+           :beautiful-eulogy {:name "Beautiful Eulogy"
+                              :main-image "/img/beautiful-eulogy.jpg"
+                              :invert-header true
+                              :bio ["Beautiful Eulogy is a Portland, Oregon-based group made up of artists Braille, Odd Thomas and Courtland Urbano. The group introduces a distinct and directive sound that’s driven by a desire to worship and glorify the God of the Bible, based in the context of its members’ hip-hop roots and shaped by influences like electronic music, folk songs and old hymns."
+                                    "The natural way Beautiful Eulogy came together parallels its organic creative process. As its members cooperated on various musical and church-related projects, they realized their chemistry and the opportunity before them to form a completely collaborative group that would emphasize a new gestalt — one that would allow them to steer away from a pure hip-hop trajectory while holding onto its origins, and that would free them from the courses of their solo careers while applying their individual talents to a collective. “We’re reinventing ourselves together,” the group says. Its members enjoy their creative freedom within self-imposed boundaries, by predefining their work’s message, sound and purpose."
+                                    
+                                    "This type of intentionality is central to the way Beautiful Eulogy creates songs, settling on concepts and driving them through a process and reprocess of musical and lyrical shaping. The resulting tracks are lyric-driven, but contain an equally deliberate musical backdrop. This panorama enhances and clarifies the presentation of weighty spiritual and theological truths, inviting listeners into the artists’ ideas about and experiences of God. Listeners may have first heard Beautiful Eulogy on Rapzilla’s King Kulture compilation, or featured on “Misconceptions,” a track from Lecrae’s Church Clothes mixtape. Beautiful Eulogy’s debut album, Satellite Kite, serves as a foundational prototype of the group’s approach and ambition."]
+                              :events ""
+                              :rss "http://humblebeast.squarespace.com/news?format=rss"
+                              :rss-category "beautiful-eulogy"
+                              :tickets ""
+                              :albums [
+                                       {:title "Satellite Kite" :src "/img/beautiful-eulogy-satellite-kite.jpg" :link "http://dl.humblebeast.com/albums/beautiful-eulogy-satellite-kite"}
+                                       {:title "Instruments of Mercy" :src "/img/beautiful-eulogy-instruments-of-mercy.jpg" :link "http://dl.humblebeast.com/albums/beautiful-eulogy-instruments-of-mercy"}
+                                       ]
+                              :social [{:name "instagram"
+                                        :link "https://www.instagram.com/beautifuleulogy/"}
+                                       {:name "facebook"
+                                        :link "https://www.facebook.com/BeautifulEulogy"}
+                                       ]}
+           
+           :propaganda {:name "Propaganda"
+                        :main-image "/img/propaganda.jpg"
+                        :bio ["From the same soil that grew Jim Morrison, Tony Hawk, NWA, Snoop, & Kendrick Lamar, grows another LA native, Propaganda.  What do you say about Propaganda?  He’s a poet, political activist, husband, father, academic, & emcee.   With LA flowing through his veins & armed with a bold message, Propaganda has assembled a body of work that challenges his listeners with every verse & reaches across the spectrum of pop culture.  From aggressive battle raps to smooth introspective rhythms, Propaganda’s music will cause you to nod your head, but more importantly it will stretch your mind & heart."]
+                        :events ""
+                        :rss "http://humblebeast.squarespace.com/news?format=rss"
+                        :albums [
+                                 {:title "Crimson Cord" :src "/img/propaganda-crimson-cord.jpg" :link "http://dl.humblebeast.com/albums/propaganda-crimson-cord"}
+                                 {:title "Excellent" :src "/img/propaganda-excellent.jpg" :link "http://dl.humblebeast.com/albums/propaganda-excellent"}
+                                 {:title "Art Ambidextrous" :src "/img/propaganda-&-odd-thomas-art-ambidextrous.jpg" :link "http://dl.humblebeast.com/albums/propaganda-&-odd-thomas-art-ambidextrous"}
+                                 ]
+                        :tickets ""
+                        :rss-category "propaganda"
+                        :social [
+                                 {:name "instagram"
+                                  :link "https://www.instagram.com/prophiphop/"}
+                                 {:name "facebook"
+                                  :link "https://www.facebook.com/propaganda"}
+                                 ]
+                        }
+           
+           }
+ }

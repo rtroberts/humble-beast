@@ -1,0 +1,267 @@
+* {
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	-webkit-font-smoothing: antialiased;
+}
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+	/*background: #212121;*/
+	background: #fff;
+	background-color: #fff;
+	height: 100%;
+}
+
+header, footer {
+	height: 135px;
+	width: 100%;
+	/*
+	background: #FBCD7B;
+	*/
+	background: #000;
+	overflow: auto;
+	/*position: absolute;*/
+}
+
+footer {
+	height:115px;
+	bottom: 0px;
+	left: 0px;
+	position: absolute; 
+	background: #000;
+}
+
+.album-art {
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	clear: both;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.album-art img {
+	max-width: 50%;
+}
+
+.everytainer {
+	min-height:100%;
+	position:relative;
+}
+
+.content {
+	padding-bottom: 150px;
+	text-align: center;
+	background: #fff;
+	color: #212121;
+}
+
+.logo-container {
+}
+
+.tagline, .siteInfo {
+	width: 60%;
+	float: right;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	letter-spacing: 2px;
+	font-size: .8em;
+	white-space: nowrap;
+	color: rgba(255,255,255,.8);
+	position: absolute;
+	top: 45%;
+	bottom: 45%;
+	right: 2%;
+	text-align: right;
+}
+
+.siteInfo {
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	bottom: 0%;
+	right: 0%;
+	text-align: center;
+}
+
+.linkText{
+	color: rgba(255,255,255,.8);
+	text-decoration: none;
+}
+
+.logo {
+	display: block;
+	width: 300px;
+	height: auto;
+	max-height: 45px;
+	margin: 0 auto;
+	margin-top: 48px;
+}
+
+.donate {
+	border: 1px solid black;
+  float: right;
+  min-width: 300px;
+  min-height: 525px;
+  margin-bottom: 3em;
+}
+
+#donate-iframe {
+	height: 525px;
+	width: 300px;
+	border: 0 none;
+}
+
+textarea:focus, input:focus{
+	outline: none;
+}
+
+.css-form input.ng-valid.ng-untouched.ng-not-empty.ng-dirty {
+	border-color: #00CC99;
+	box-shadow: 0 0 2px #00CC99;
+}
+
+.css-form input.ng-valid.ng-touched {
+	border-color: #00CC99;
+	box-shadow: 0 0 0px #00CC99;
+}
+
+.css-form input.ng-invalid.ng-touched {
+	border-color: #FA787E;
+	box-shadow: 0 0 0px #FA787E; 
+}
+
+.css-form input.ng-invalid.ng-dirty:focus {
+	border-color: #FA787E;
+	box-shadow: 0 0 2px #FA787E;
+}
+
+.css-form input.ng-valid.ng-dirty {
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 1.7em;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	font-size: 4.5em;
+	line-height: 1.2em;
+	letter-spacing: 2px;
+	font-family: 'bebas-neue', 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+.inner-content h2 {
+	font-size: 5em;
+	font-family: 'bebas-neue', 'Helvetica Neue, Arial', sans-serif;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 1.2em;
+	letter-spacing: 2px;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+.content-columns {
+	margin-top: 3em;
+}
+.media-button {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+label {
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	letter-spacing: 2px;
+	font-size: 11px;
+	display: inline-block;
+	width: 20%;
+	position: relative;
+	margin-left: -20%;
+}
+
+form {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 2em;
+}
+
+input {
+	display: inline-block !important;
+	margin: .2em !important;
+	border: 2px solid #dadada;
+	border-radius: 0px;
+}
+
+#hbNewsletterForm {
+
+}
+
+.upcase {
+	text-transform: uppercase;
+}
+
+#hbDownloadButton {
+	min-width: 200px;
+	width: 30%;
+	height: 80px;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+button[type="submit"] {
+	background-color: black; 
+	color: white; 
+	border: 0px solid black; border-radius: 0px; 
+	letter-spacing: 2px; 
+	margin-top: 1em;
+	width: 15%;
+	min-width: 7em;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+}
+
+button[disabled] {
+	color: #777;
+	background-color: rgba(119,119,119,.2);
+
+}
+
+.btn a {
+	color: white;
+}
+
+.inner-content {
+	padding-top: 3%;
+	display: table;
+	width: 60%;
+	margin: 0 auto;
+}
+
+p {
+	font-family: 'Helvetica Neue, Montserrat', sans-serif;
+}
+
+summary {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+@font-face{font-family:bebas-neue;src:url(https://use.typekit.net/af/d8aa8e/0000000000000000000149c5/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),url(https://use.typekit.net/af/d8aa8e/0000000000000000000149c5/27/d?subset_id=2&fvd=n4&v=3) format("woff"),url(https://use.typekit.net/af/d8aa8e/0000000000000000000149c5/27/a?subset_id=2&fvd=n4&v=3) format("opentype");font-weight:400;font-style:normal;}

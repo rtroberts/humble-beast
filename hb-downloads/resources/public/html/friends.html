@@ -1,0 +1,10 @@
+<div ng-controller="friendsCtrl">
+	<p>links remaining: <strong>{{emailsRemaining | noNeg}}</strong></p>
+	<form name="friendsForm" class="css-form">
+		<label class="caps">* Email </label><input type="email" ng-model="user.email" name="email" required /><br />
+		<label class="caps">Name </label><input type="text" ng-model="user.name" name="name" /><br />
+		<label class="caps">   Zip </label><input type="text" ng-model="user.zip_code" value="97211"  ng-pattern="/^(\d{5}(-\d{4})?|[A-Z]\d[A-Z] *\d[A-Z]\d)$/" />
+		<br />
+		<button type="submit" ng-click="postDownloader(user)" ng-disabled="friendsForm.$invalid || outOfEmails() || postInProgress">Submit</button>
+	</form>
+</div>

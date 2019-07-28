@@ -1,0 +1,9 @@
+reference: rhymesayers artist pages - for content
+
+reference: I am becoming book website parallax stuff - for layout/style
+
+Artist image / bio / social networks, feed for shows, discography, spotify, news/press, videos
+
+
+
+FROM THOMAS: API key for bandsintown?

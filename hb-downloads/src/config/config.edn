@@ -1,0 +1,99 @@
+{
+	:hb {
+    :database	{
+   }
+   :mailing-list {
+   }
+   :aws {
+  }
+  :bucket "hb-download-app"
+  :prefix "sources/"
+  :asset-root "http://s3.amazonaws.com/hb-download-app/public"
+  
+  :style {
+    :download-app "/js/lampwick.js?v=1.0.2"
+    :css "http://s3.amazonaws.com/hb-download-app/public/css/hb-global.css"
+    :site-logo "http://s3.amazonaws.com/hb-download-app/public/img/hb-logo.png"
+    :site-link "http://www.humblebeast.com/"
+    :favicon "favicon.ico"
+  }
+  
+  :footer {
+         :email "info@humblebeast.com"
+         :city  "Portland, OR - "
+         :copyright "Copyright 2014 Humble Beast. All Rights Reserved"
+         }
+  
+  :donation {
+   :iframe "https://secure.squarespace.com/commerce/donate?donatePageId=543b6229e4b00054566b3762"
+ }
+ 
+ :email {
+  :endpoint "us-east-1"
+  :source-address "support@humblebeast.com"
+  :org-site "http://dl.humblebeast.com/"
+  :org-prefix "hb"
+  :org-name "Humble Beast"
+  :store "https://store.humblebeast.com"
+  :donate "http://www.humblebeast.com/support"
+  :facebook "http://www.facebook.com/humblebeastrecords"
+  :instagram "http://instagram.com/humblebeastrecords"
+  :youtube "https://www.youtube.com/user/HumbleBeastVideo"
+  :twitter "https://twitter.com/humblebeast"
+  :snapchat "On Snapchat as humblebeastrec"
+}
+
+
+
+}
+
+:sl {
+  :database {
+ }
+ :mailing-list {
+ }
+ :aws {
+}
+:bucket "sl-download-app"
+:prefix "sources/"
+
+:footer {
+         :email "info@streetlightsbible.com"
+         :city  "Chicago, IL // "
+         :copyright "Copyright 2012 // Streetlights. All Rights Reserved"
+         }
+
+:asset-root "http://s3.amazonaws.com/sl-download-app/public"
+:style {
+  :download-app "/js/streetlights-lampwick.js?v=1.0.2"
+  :css "http://s3.amazonaws.com/sl-download-app/public/css/sl-global.css"
+  ;:css "/css/sl-global.css"
+  :site-logo "http://s3.amazonaws.com/sl-download-app/public/img/sl-logo-white.png"
+  :site-link "http://www.streetlightsbible.com/"
+  :favicon "sl-favicon.ico"
+}
+
+:donation {
+ :iframe "https://secure.subsplash.com/ui/access/4HHQKN"
+}
+
+:email {
+  :endpoint "us-west-2"
+  :source-address "downloads@streetlightsbible.com"
+  :org-site "http://dl.streetlightsbible.com/"
+  :org-prefix "sl"
+  :org-name "Streetlights"
+  :store "http://www.streetlightsbible.com/store/"
+  :donate "http://www.streetlightsbible.com/give/"
+  :facebook "https://www.facebook.com/SLBible"
+  :instagram "https://www.instagram.com/streetlightsbible/"
+  :youtube "https://www.youtube.com/channel/UCCHRlahR6yaGbanFSsUg_Ew"
+  :twitter "https://twitter.com/SLBible"
+  :snapchat ""
+}
+
+
+
+}
+
+}

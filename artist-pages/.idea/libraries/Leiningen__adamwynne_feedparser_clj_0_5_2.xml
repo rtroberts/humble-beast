@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: adamwynne/feedparser-clj:0.5.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/adamwynne/feedparser-clj/0.5.2/feedparser-clj-0.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
