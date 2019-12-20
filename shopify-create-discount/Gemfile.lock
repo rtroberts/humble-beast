@@ -52,7 +52,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     ntlm-http (0.1.1)
     oauth (0.5.4)
-    rack (2.0.7)
+    rack (2.0.8)
     rails-observers (0.1.2)
       activemodel (~> 4.0)
     rubyzip (1.2.3)
